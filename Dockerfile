@@ -1,8 +1,8 @@
 FROM debian:jessie
 
 RUN \
-       apt-get update --quite --yes \
-    && apt-get install --quite --yes \
+       apt-get update --quiet --yes \
+    && apt-get install --quiet --yes \
                   texlive-full \
                   biber \
                   latexmk \
